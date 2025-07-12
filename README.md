@@ -1,10 +1,10 @@
-# 🪑 E-commerce Furniture Sales Prediction (ML Project)
+# E-commerce Furniture Sales Prediction (ML Project)
 
 This project uses real-world e-commerce data scraped from AliExpress to predict how many units of a furniture item will be sold, based on its product title, price, and shipping details.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 - **Goal**: Predict product `sold` count using ML models
 - **Dataset Size**: 2,000 products (AliExpress)
@@ -12,7 +12,7 @@ This project uses real-world e-commerce data scraped from AliExpress to predict 
 
 ---
 
-## 📂 Dataset Columns
+## Dataset Columns
 
 - `productTitle`: Name of the furniture item
 - `originalPrice`: Pre-discount price (mostly null — removed)
@@ -22,7 +22,7 @@ This project uses real-world e-commerce data scraped from AliExpress to predict 
 
 ---
 
-## 🔧 Project Workflow
+## Project Workflow
 
 ### Phase 1: Data Cleaning
 - Dropped `originalPrice` due to excessive nulls
@@ -58,7 +58,7 @@ This project uses real-world e-commerce data scraped from AliExpress to predict 
 
 ---
 
-## 📈 Results
+## Results
 
 | Model               | MSE    | R² Score |
 |--------------------|--------|----------|
@@ -67,7 +67,7 @@ This project uses real-world e-commerce data scraped from AliExpress to predict 
 
 ---
 
-## 🧠 Key Insights
+## Key Insights
 
 - Products with **free shipping** sell better
 - **Text features** (titles) improve predictions via TF-IDF
@@ -75,7 +75,7 @@ This project uses real-world e-commerce data scraped from AliExpress to predict 
 
 ---
 
-## 📦 Installation
+## Installation
 
 ```bash
 pip install -r requirements.txt
