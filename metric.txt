@@ -1,0 +1,13 @@
+Model Evaluation Summary
+
+Linear Regression:
+- MSE: 1.5539
+- R² Score: 0.1658
+
+Random Forest Regressor:
+- MSE: 0.6924
+- R² Score: 0.6821
+
+ Notes:
+- Random Forest performed significantly better than Linear Regression.
+- TF-IDF and non-linear patterns helped improve accuracy.
